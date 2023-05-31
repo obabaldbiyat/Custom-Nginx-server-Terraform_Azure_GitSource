@@ -12,8 +12,8 @@ provider "azurerm" {
 }
 
 module "webserverModule" {
-  source = "../webserverModule "
-  Resource_Group_name = "obab_Staging_"
+  source = "github.com/obabaldbiyat/Custom-Nginx-server-Terraform_Azure/webserverModule"
+  Resource_Group_name = "obab2_Staging_"
   location = "francecentral"
   instance_size = "Standard_B2s"
   environment = "Staging"
