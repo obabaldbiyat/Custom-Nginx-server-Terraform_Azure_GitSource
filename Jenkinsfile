@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: '10fedfbb-8a4e-4700-b3cd-3ad56c87c166', url: 'https://github.com/obabaldbiyat/Prod_Custom-Nginx-server-Terraform_Azure_GitSourc'
+                git branch: 'main', credentialsId: '10fedfbb-8a4e-4700-b3cd-3ad56c87c166', url: 'https://github.com/obabaldbiyat/Custom-Nginx-server-Terraform_Azure_GitSource'
             }
         }
         stage('conection') {
